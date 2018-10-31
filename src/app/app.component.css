@@ -1,0 +1,36 @@
+.container {
+     display: flex;
+   /* flex-direction: column;
+    align-items: center;
+    justify-content: flex-end; */
+    height: 100%;
+    background-color: #000014;
+    /* padding: 30px; */
+}
+
+.self {
+    /* display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; */
+    position: absolute;
+    bottom: 0px;
+    margin: 30px;
+}
+
+.opponent {
+    border: 1px solid red;
+    position: absolute;
+    top: 0px;
+    margin: 30px;
+}
+
+.row {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.center {
+  margin: auto;
+}
